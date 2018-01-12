@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2034CCA1FFC716E001FBA6A /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2034CC91FFC716E001FBA6A /* CollectionVC.swift */; };
+		D2BA8C231FF250DF00A5FCEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C221FF250DF00A5FCEA /* AppDelegate.m */; };
+		D2BA8C261FF250DF00A5FCEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C251FF250DF00A5FCEA /* ViewController.m */; };
+		D2BA8C291FF250DF00A5FCEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BA8C271FF250DF00A5FCEA /* Main.storyboard */; };
+		D2BA8C2B1FF250DF00A5FCEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BA8C2A1FF250DF00A5FCEA /* Assets.xcassets */; };
+		D2BA8C2E1FF250DF00A5FCEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BA8C2C1FF250DF00A5FCEA /* LaunchScreen.storyboard */; };
+		D2BA8C311FF250DF00A5FCEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C301FF250DF00A5FCEA /* main.m */; };
+		D2BA8C3B1FF250E000A5FCEA /* redPacketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C3A1FF250E000A5FCEA /* redPacketTests.m */; };
+		D2BA8C461FF250E000A5FCEA /* redPacketUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C451FF250E000A5FCEA /* redPacketUITests.m */; };
+		D2BA8C551FF2543600A5FCEA /* XTLoveHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BA8C531FF2543500A5FCEA /* XTLoveHeartView.m */; };
+		D2BA8C571FF3229200A5FCEA /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BA8C561FF3229200A5FCEA /* 120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2BA8C371FF250E000A5FCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2BA8C161FF250DF00A5FCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BA8C1D1FF250DF00A5FCEA;
+			remoteInfo = redPacket;
+		};
+		D2BA8C421FF250E000A5FCEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2BA8C161FF250DF00A5FCEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BA8C1D1FF250DF00A5FCEA;
+			remoteInfo = redPacket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2034CC81FFC716E001FBA6A /* redPacket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "redPacket-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2034CC91FFC716E001FBA6A /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		D2BA8C1E1FF250DF00A5FCEA /* redPacket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redPacket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BA8C211FF250DF00A5FCEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2BA8C221FF250DF00A5FCEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2BA8C241FF250DF00A5FCEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D2BA8C251FF250DF00A5FCEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2BA8C281FF250DF00A5FCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2BA8C2A1FF250DF00A5FCEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2BA8C2D1FF250DF00A5FCEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2BA8C2F1FF250DF00A5FCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BA8C301FF250DF00A5FCEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2BA8C361FF250E000A5FCEA /* redPacketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BA8C3A1FF250E000A5FCEA /* redPacketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketTests.m; sourceTree = "<group>"; };
+		D2BA8C3C1FF250E000A5FCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BA8C411FF250E000A5FCEA /* redPacketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redPacketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BA8C451FF250E000A5FCEA /* redPacketUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = redPacketUITests.m; sourceTree = "<group>"; };
+		D2BA8C471FF250E000A5FCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BA8C531FF2543500A5FCEA /* XTLoveHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLoveHeartView.m; sourceTree = "<group>"; };
+		D2BA8C541FF2543500A5FCEA /* XTLoveHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLoveHeartView.h; sourceTree = "<group>"; };
+		D2BA8C561FF3229200A5FCEA /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BA8C1B1FF250DF00A5FCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C331FF250E000A5FCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C3E1FF250E000A5FCEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2BA8C151FF250DF00A5FCEA = {
+			isa = PBXGroup;
+			children = (
+				D2BA8C201FF250DF00A5FCEA /* redPacket */,
+				D2BA8C391FF250E000A5FCEA /* redPacketTests */,
+				D2BA8C441FF250E000A5FCEA /* redPacketUITests */,
+				D2BA8C1F1FF250DF00A5FCEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BA8C1F1FF250DF00A5FCEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA8C1E1FF250DF00A5FCEA /* redPacket.app */,
+				D2BA8C361FF250E000A5FCEA /* redPacketTests.xctest */,
+				D2BA8C411FF250E000A5FCEA /* redPacketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BA8C201FF250DF00A5FCEA /* redPacket */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA8C211FF250DF00A5FCEA /* AppDelegate.h */,
+				D2BA8C221FF250DF00A5FCEA /* AppDelegate.m */,
+				D2BA8C241FF250DF00A5FCEA /* ViewController.h */,
+				D2BA8C251FF250DF00A5FCEA /* ViewController.m */,
+				D2BA8C561FF3229200A5FCEA /* 120.png */,
+				D2034CC91FFC716E001FBA6A /* CollectionVC.swift */,
+				D2BA8C541FF2543500A5FCEA /* XTLoveHeartView.h */,
+				D2BA8C531FF2543500A5FCEA /* XTLoveHeartView.m */,
+				D2BA8C271FF250DF00A5FCEA /* Main.storyboard */,
+				D2BA8C2A1FF250DF00A5FCEA /* Assets.xcassets */,
+				D2BA8C2C1FF250DF00A5FCEA /* LaunchScreen.storyboard */,
+				D2BA8C2F1FF250DF00A5FCEA /* Info.plist */,
+				D2BA8C301FF250DF00A5FCEA /* main.m */,
+				D2034CC81FFC716E001FBA6A /* redPacket-Bridging-Header.h */,
+			);
+			path = redPacket;
+			sourceTree = "<group>";
+		};
+		D2BA8C391FF250E000A5FCEA /* redPacketTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA8C3A1FF250E000A5FCEA /* redPacketTests.m */,
+				D2BA8C3C1FF250E000A5FCEA /* Info.plist */,
+			);
+			path = redPacketTests;
+			sourceTree = "<group>";
+		};
+		D2BA8C441FF250E000A5FCEA /* redPacketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2BA8C451FF250E000A5FCEA /* redPacketUITests.m */,
+				D2BA8C471FF250E000A5FCEA /* Info.plist */,
+			);
+			path = redPacketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BA8C1D1FF250DF00A5FCEA /* redPacket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BA8C4A1FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacket" */;
+			buildPhases = (
+				D2BA8C1A1FF250DF00A5FCEA /* Sources */,
+				D2BA8C1B1FF250DF00A5FCEA /* Frameworks */,
+				D2BA8C1C1FF250DF00A5FCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redPacket;
+			productName = redPacket;
+			productReference = D2BA8C1E1FF250DF00A5FCEA /* redPacket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2BA8C351FF250E000A5FCEA /* redPacketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BA8C4D1FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacketTests" */;
+			buildPhases = (
+				D2BA8C321FF250E000A5FCEA /* Sources */,
+				D2BA8C331FF250E000A5FCEA /* Frameworks */,
+				D2BA8C341FF250E000A5FCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BA8C381FF250E000A5FCEA /* PBXTargetDependency */,
+			);
+			name = redPacketTests;
+			productName = redPacketTests;
+			productReference = D2BA8C361FF250E000A5FCEA /* redPacketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2BA8C401FF250E000A5FCEA /* redPacketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BA8C501FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacketUITests" */;
+			buildPhases = (
+				D2BA8C3D1FF250E000A5FCEA /* Sources */,
+				D2BA8C3E1FF250E000A5FCEA /* Frameworks */,
+				D2BA8C3F1FF250E000A5FCEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BA8C431FF250E000A5FCEA /* PBXTargetDependency */,
+			);
+			name = redPacketUITests;
+			productName = redPacketUITests;
+			productReference = D2BA8C411FF250E000A5FCEA /* redPacketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BA8C161FF250DF00A5FCEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Chan;
+				TargetAttributes = {
+					D2BA8C1D1FF250DF00A5FCEA = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					D2BA8C351FF250E000A5FCEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2BA8C1D1FF250DF00A5FCEA;
+					};
+					D2BA8C401FF250E000A5FCEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2BA8C1D1FF250DF00A5FCEA;
+					};
+				};
+			};
+			buildConfigurationList = D2BA8C191FF250DF00A5FCEA /* Build configuration list for PBXProject "redPacket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2BA8C151FF250DF00A5FCEA;
+			productRefGroup = D2BA8C1F1FF250DF00A5FCEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BA8C1D1FF250DF00A5FCEA /* redPacket */,
+				D2BA8C351FF250E000A5FCEA /* redPacketTests */,
+				D2BA8C401FF250E000A5FCEA /* redPacketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BA8C1C1FF250DF00A5FCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BA8C2E1FF250DF00A5FCEA /* LaunchScreen.storyboard in Resources */,
+				D2BA8C571FF3229200A5FCEA /* 120.png in Resources */,
+				D2BA8C2B1FF250DF00A5FCEA /* Assets.xcassets in Resources */,
+				D2BA8C291FF250DF00A5FCEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C341FF250E000A5FCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C3F1FF250E000A5FCEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BA8C1A1FF250DF00A5FCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BA8C261FF250DF00A5FCEA /* ViewController.m in Sources */,
+				D2BA8C551FF2543600A5FCEA /* XTLoveHeartView.m in Sources */,
+				D2BA8C311FF250DF00A5FCEA /* main.m in Sources */,
+				D2BA8C231FF250DF00A5FCEA /* AppDelegate.m in Sources */,
+				D2034CCA1FFC716E001FBA6A /* CollectionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C321FF250E000A5FCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BA8C3B1FF250E000A5FCEA /* redPacketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BA8C3D1FF250E000A5FCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BA8C461FF250E000A5FCEA /* redPacketUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2BA8C381FF250E000A5FCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2BA8C1D1FF250DF00A5FCEA /* redPacket */;
+			targetProxy = D2BA8C371FF250E000A5FCEA /* PBXContainerItemProxy */;
+		};
+		D2BA8C431FF250E000A5FCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2BA8C1D1FF250DF00A5FCEA /* redPacket */;
+			targetProxy = D2BA8C421FF250E000A5FCEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2BA8C271FF250DF00A5FCEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BA8C281FF250DF00A5FCEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2BA8C2C1FF250DF00A5FCEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BA8C2D1FF250DF00A5FCEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2BA8C481FF250E000A5FCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2BA8C491FF250E000A5FCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2BA8C4B1FF250E000A5FCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR97LDHCPV;
+				INFOPLIST_FILE = redPacket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "redPacket/redPacket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2BA8C4C1FF250E000A5FCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VR97LDHCPV;
+				INFOPLIST_FILE = redPacket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "redPacket/redPacket-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2BA8C4E1FF250E000A5FCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = redPacketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redPacket.app/redPacket";
+			};
+			name = Debug;
+		};
+		D2BA8C4F1FF250E000A5FCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = redPacketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redPacket.app/redPacket";
+			};
+			name = Release;
+		};
+		D2BA8C511FF250E000A5FCEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = redPacketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = redPacket;
+			};
+			name = Debug;
+		};
+		D2BA8C521FF250E000A5FCEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = redPacketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chan.redPacketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = redPacket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BA8C191FF250DF00A5FCEA /* Build configuration list for PBXProject "redPacket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BA8C481FF250E000A5FCEA /* Debug */,
+				D2BA8C491FF250E000A5FCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BA8C4A1FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BA8C4B1FF250E000A5FCEA /* Debug */,
+				D2BA8C4C1FF250E000A5FCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BA8C4D1FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BA8C4E1FF250E000A5FCEA /* Debug */,
+				D2BA8C4F1FF250E000A5FCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BA8C501FF250E000A5FCEA /* Build configuration list for PBXNativeTarget "redPacketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BA8C511FF250E000A5FCEA /* Debug */,
+				D2BA8C521FF250E000A5FCEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2BA8C161FF250DF00A5FCEA /* Project object */;
+}
